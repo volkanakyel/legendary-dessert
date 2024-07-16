@@ -16,7 +16,7 @@ module.exports = {
         banner: "568px",
       },
       fontFamily: {
-        ubuntu: ["Ubuntu", "sans-serif"],
+        'red-hat': ['"Red Hat Text"', 'sans-serif'],
       },
     },
     fontSize: {
@@ -38,16 +38,15 @@ module.exports = {
     colors: {
       white: "#ffffff",
       black: "#000000",
-      light: "#BEE2FD",
-      dark: "#022959",
-      blue: "164A8A",
-      lightBlue: "#ABBCFF",
-      purple: "#483EFF",
-      background: "#EFF5FF",
-      grey: {
-        100: "#D6D9E6",
-        200: "#F8F9FF",
-        300: "#9699AA",
+      red: "#C73B0F",
+      green: "#1EA575",
+      rose: {
+        50: "#FCF8F6",
+        100: "#F5EEEC",
+        300: "#CAAFA7",
+        400: "#AD8A85",
+        500: "#87635A",
+        900: "#260F08",
       },
     },
   },
